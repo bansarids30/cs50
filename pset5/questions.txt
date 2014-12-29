@@ -1,0 +1,19 @@
+0.  A BMP holds over 4 billion colors.GIF has maximum display of 256 colors. JPEG supports 16.7 million colors.PNG also supports 16.7 million colors.
+1.  GIF is used for animation , png can also be used but only firefox supports it.
+2.  In lossless compression, the image is compressed using algorithm and so there is no loss in data while in lossy compression the data is lost however it is able to compress images more than lossless compression.
+3.  JPEG format.
+4.  The system first changes first character of file to signal that file is deleted and then moves all of the file's FAT cluster to hard drive list of free clusters.
+5.  Delete files using a secure delete option. That replaces the section on disc with all zeroes.
+6.  <stdint.h> is used when you need specific variable sizes for portability across platforms.
+7.  unit8_t is actually unsigned char of one byte, uint32_t is unsigned int of 4 bytes, int32_t is signed int of 4 bytes, uint16_t is unsigned short of 2 bytes.
+8.  BYTE is one byte, DWORD and LONG are four bytes, WORD is two bytes.
+9.  The first two bytes are WORD and it specifies the type of file like bitmap ,jpeg etc
+10. bfSize will give entire file size in bytes while biSize will give entire size of BITMAPINFOHEADER structure in bytes.
+11. If biHeight is negative, the bitmap is top-down DIB (device-independent bitmap) and its origin is the upper left corner.
+12. biBitCount
+13. It might return null if there is some error to open that file.
+14. Because the program is reading in 1 RGB triple at a time.
+15. value 3
+16. fseek() function sets the file position data for gien stream.
+17. This is an integer constant which is third argument to the fseek function and specifies that the offset provided is relative to the current file position.
+18. milo banana dun it.
