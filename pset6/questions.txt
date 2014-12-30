@@ -1,0 +1,20 @@
+0.  It refers to lung disease caused by silicon dust.
+1.  It returns resource usage measure for first argument.
+2.  16
+3.  It would be more convinient if we pass actual parameters rather than copying values.
+4.  We have a for loop with variable c getting a character from a file:
+    for 1st if:
+    then if the c=alphanumeric or '\''(here we check if index>0) then we add that in word[index] 
+    and after increment that index.If index length increases we traverse until end again index=0
+    if character is number then we go to end of word using while loop and again index=0 for new word o begin
+    else if the word has ended and index>0 then we add last letter to'\0' and check if it is there in dictionary or not and
+    if it false then we increment misspelling words by 1. And again we put index=0.
+
+5.  if we use sscanf , then it will store entire string and it will nt be able to check for some other signs
+6.  Since the word for check and the dictionary for reference shall be consistant during the spell checking process, 
+    it would be safer to declare the arguments as const for those functions
+7.  I used trie data structure.
+8.  The total time it took was 0.18 second
+9.  I tried recursion instead of traversing to each node.Then instead of using each word from file i used each letter.
+10. I think it as uninitialized checking in load function and maybe load function can be more efficient.
+
